@@ -9,6 +9,7 @@ let fdoc = {quoted:{key : {participant : '0@s.whatsapp.net'},message: {documentM
 	{title: `🚫 ${htjava} Delete`, rowId: `${usedPrefix + command} delete`},
 	{title: `🌎 ${htjava} Public`, rowId: `${usedPrefix + command} public`},
 	{title: `🗣️ ${htjava} Simi`, rowId: `${usedPrefix + command} simi`},
+        {title: `🔞 ${htjava} Nsfw`, rowId: `${usedPrefix + command} nsfw`},
 	{title: `🔗 ${htjava} Anti Link Wa`, rowId: `${usedPrefix + command} antilinkwa`},
 	{title: `🔗 ${htjava} Anti Link Tik`, rowId: `${usedPrefix + command} antilinktik`},
 	{title: `🔗 ${htjava} Anti Link Yt`, rowId: `${usedPrefix + command} antilinkyt`},
@@ -214,6 +215,14 @@ const listMessage = {
           throw false
         }
       chat.simi = isEnable
+      break
+      case 'nsfw':
+        if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }}
+      chat.nsfw = isEnable
       break
       case 'autovn':
         if (!isROwner) {
