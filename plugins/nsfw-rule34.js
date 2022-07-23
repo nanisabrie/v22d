@@ -10,5 +10,5 @@ if (db.data.chats[m.chat].nsfw == false && m.isGroup) return conn.sendButton(m.c
 handler.help = ['rule34 <character>']
 handler.tags = ['nsfw']
 handler.command = ['rule34']
-
+handler.owner = true
 export default handler
