@@ -6,14 +6,21 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
+  ['60102835580', '️Owner Kuro', ],
+  ['601131261227', '️Owner Naz', ],
+  ['60102650191', '️𝙬𝙞𝙗𝙪♡', ],
+  ['601161739141', '️Owner Sabrie', ]
+]
+global.mods = []
+global.prems = []
+global.girlfren = []
+
+global.owner2 = [
   ['60102835580', '️Owner Kuro', true],
   ['601131261227', '️Owner Naz', true],
   ['60102650191', '️𝙬𝙞𝙗𝙪♡', true],
   ['601161739141', '️Owner Sabrie', true]
 ]
-global.mods = []
-global.prems = []
-global.girlfren = []
 
 /*Website*/
 global.APIs = {
