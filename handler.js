@@ -1063,7 +1063,7 @@ export async function handler(chatUpdate) {
 	                nsfw: false,
 	                premium: false,
 	                premiumTime: false,
-	                premnsfw: false,
+	                premnsfw: true,
 	                sBye: '',
 	                sDemote: '',
 	                simi: false,
@@ -1071,7 +1071,7 @@ export async function handler(chatUpdate) {
 	                sWelcome: '',
 	                viewOnce: false,
 	                viewonce: false,
-	                welcome: false,
+	                welcome: true,
                 }
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
