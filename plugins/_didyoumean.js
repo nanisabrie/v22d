@@ -1,4 +1,4 @@
-import didyoumean from 'didyoumean'
+/*import didyoumean from 'didyoumean'
 
 export async function before(m, { match, usedPrefix, command}) {
 
@@ -16,3 +16,4 @@ export async function before(m, { match, usedPrefix, command}) {
 	}
 }
 export const disabled = false
+*/
