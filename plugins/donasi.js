@@ -7,10 +7,8 @@ let str = ` ${conn.getName(m.sender)} Want Support Bot?
 *PAYMENT ↓*
 _*Pulsa/pulse(Telkomsel):*_ ${pulsa}
 
-_*Dana/ovo:*_ ${dana}
-_*Paypal:*_ ${paypal}
-_*Saweria:*_ ${saweria}
-_*Trakteer:*_ ${trakteer}
+_*touch and go ewallet:*_ ${tng}
+_*umobile:*_ ${umobile}
 Setelah melakukan donasi kirim bukti pembayaran ke owner
 `
 conn.sendHydrated(m.chat, str, wm, pepe, 'https://github.com/AyGemuy/', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
