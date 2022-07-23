@@ -5,7 +5,6 @@ let pepe = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0)
 let str = ` ${conn.getName(m.sender)} Want Support Bot?
 
 *PAYMENT ↓*
-_*Pulsa/pulse(Telkomsel):*_ ${pulsa}
 
 _*touch and go ewallet:*_ ${tng}
 _*umobile:*_ ${umobile}
