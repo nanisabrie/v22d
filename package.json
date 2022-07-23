@@ -11,6 +11,8 @@
     },
     "scripts": {
         "start": "node index.js",
+        "test": "node test.js",
+        "test2": "nodemon index.js"
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
         "db": "node .  --db 'mongodb+srv://IkisLakis:Phhh27hdjj@cluster0.tc1ni.mongodb.net/?retryWrites=true&w=majority'"    },
     "keywords": [
