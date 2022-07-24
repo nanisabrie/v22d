@@ -432,7 +432,7 @@ global.wait = 'Wait...'
 global.render = 'Render...'
 global.webs = 'https://s.id/Cerdasin62/'
 global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
-global.gcwangsaf = 'https://chat.whatsapp.com/I2cagI7uWN59oxMomPQvfM'
+global.gcwangsaf = 'https://chat.whatsapp.com/DtyPenO5Rha7yTWqr5gR8J'
 
 /*Donasi*/
 global.tng = ['1161739141']
