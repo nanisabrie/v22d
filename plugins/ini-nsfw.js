@@ -1,4 +1,4 @@
-import axios from "axios"
+/*import axios from "axios"
 let handler = async (m, {command, conn}) => {
 if (command == 'nsfwloli') {
 let haha = await conn.getFile(`https://server-api-rey.herokuapp.com/api/wallpaper/nsfwloli?apikey=apirey`)
@@ -117,3 +117,4 @@ handler.tags = ['nsfw']
 handler.premium = true
 
 export default  handler
+*/
