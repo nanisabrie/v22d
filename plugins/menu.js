@@ -1,7 +1,7 @@
 import { promises, readFileSync } from 'fs'
 import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
-import { fetch } from 'node-fetch'
+import fetch from 'node-fetch'
 
 let tags = {
   'main': 'Main',
@@ -46,7 +46,6 @@ let emm = rus.emoji
 const defaultMenu = {
   before: `
 Hai, *%name!*
-
 *Tanggal:* %week, %date
 *Waktu:* %time
 *Bot Online:* %uptime (%muptime)
@@ -54,7 +53,6 @@ Hai, *%name!*
 *Lib:* Baileys-Md
 *Language:* Javascript,Ts-Node
 *Fitur:* %totalfeatures command
-
 %readmore
 *Support me:* _https://s.id/Cerdasin62_
 *Note:*
