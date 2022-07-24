@@ -32,7 +32,7 @@ handler.help = ['ngechit'].map(v => v + ' *hehe..*')
 handler.tags = ['xp']
 handler.command = /^(ngechit|cheat)$/i
 handler.private = true
-
+handler.premium = true
 export default handler
 
 function pickRandom(list) {
