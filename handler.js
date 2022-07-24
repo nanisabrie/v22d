@@ -1060,7 +1060,6 @@ export async function handler(chatUpdate) {
 	                isBanned: false,
 	                lastAnime: true,
 	                latestNews: true,
-	                nsfw: false,
 	                premium: false,
 	                premiumTime: false,
 	                premnsfw: true,
