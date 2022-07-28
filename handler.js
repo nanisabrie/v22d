@@ -1062,7 +1062,6 @@ export async function handler(chatUpdate) {
 	                latestNews: true,
 	                premium: false,
 	                premiumTime: false,
-	                premnsfw: true,
 	                sBye: '',
 	                sDemote: '',
 	                simi: false,
