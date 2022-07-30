@@ -220,7 +220,7 @@ const listMessage = {
       case 'nsfw':
         if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
+          global.dfail('rowner', m, conn)
           throw false
         }}
       chat.nsfw = isEnable
